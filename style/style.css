@@ -48,39 +48,8 @@ nav{
 	border-radius: 25px;
 }
 
-.offer{
-	border: 1px solid white;
-	height:350px ;
-	width: 650px;
-	left: 50px;
-	top: 300px;
-	box-sizing: border-box;
-	 background-color: aqua;
-    float: left;
-    position: relative;
-    animation: slide 10s infinite;
-}
 
-@keyframes slide{
-   0%{top: 0; left: 0;}
-   7%{top: 0; left: 0;}
-   14%{top: 0; left: -720px;}
-   21%{top: 0; left: -720px;}
-   28%{top: 0; left: -1440px;}
-   35%{top: 0; left: -1440px;}
-   43%{top: 0; left: -2160px;}
-   50%{top: 0; left: -2160px;}
-   57%{top: 0; left: -2880px;}
-   64%{top: 0; left: -2880px;}
-   71%{top: 0; left: -3600px;}
-   78%{top: 0; left: -3600px;}
-   85%{top: 0; left: -4320px;}
-   92%{top: 0; left: -4320px;}
-   100%{top: 0; left: 0;}
-}
-
-		
-
+	
 a{
     color: white;
     text-decoration:none ;	
