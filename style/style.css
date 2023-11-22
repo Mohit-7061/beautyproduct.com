@@ -132,9 +132,7 @@ a{
 	width: 180px;
 	height: 180px;
 	box-sizing: border-box;
-	border-color: white;
-	border-style: solid;
-	border-width: 5px;
+	border: 5px solid white;
 	margin-left: 150px;
 	margin-top: 90px;
 	border-radius: 25px;
@@ -392,9 +390,7 @@ legend{
 	height: 80px;
 
 	box-sizing: border-box;
-	border-color: black;
-	border-style: solid;
-	border-width: 3px;
+	border: 3px solid white;
 	float: left;
 	margin: 40.5px;
 	margin-top: 7px;
@@ -415,9 +411,7 @@ legend{
 	height: 45px;
 	box-sizing: border-box;
 	border: none;
-	border-width: 1px;
-	border-color: #ccc;
-	border-style: solid;
+	border: 2px solid #ccc;
 	font-size: 18px;
 	padding: 10px;
 	background-image: url(../images/search.png);
@@ -450,9 +444,7 @@ legend{
 	width: 253px;
 	height: 310px;
 	box-sizing: border-box;
-	border-color: white;
-	border-style: solid;
-	border-width: 2px;
+	border: 2px solid white;
 	float: left;
 	margin: 49.5px;
 }
@@ -510,9 +502,7 @@ legend{
 	width: 253px;
 	height: 310px;
 	box-sizing: border-box;
-	border-color: rgb(255, 255, 255);
-	border-style: solid;
-	border-width: 2px;
+	border: 2px solid white;
 	float: left;
 	margin: 49.5px;
 }
@@ -537,9 +527,7 @@ legend{
 	width: 253px;
 	height: 310px;
 	box-sizing: border-box;
-	border-color: white;
-	border-style: solid;
-	border-width: 2px;
+	border: 2px solid white;
 	float: left;
 	margin: 49.5px;
 }
@@ -564,9 +552,7 @@ legend{
 	width: 253px;
 	height: 310px;
 	box-sizing: border-box;
-	border-color: white;
-	border-style: solid;
-	border-width: 2px;
+	border: 2px solid white;
 	float: left;
 	margin: 49.5px;
 }
@@ -591,9 +577,7 @@ legend{
 	width: 253px;
 	height: 310px;
 	box-sizing: border-box;
-	border-color: white;
-	border-style: solid;
-	border-width: 2px;
+	border: 2px solid white;
 	float: left;
 	margin: 49.5px;
 }
