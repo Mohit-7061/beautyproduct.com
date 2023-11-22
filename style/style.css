@@ -146,8 +146,17 @@ a{
 	padding: 0;
 	font-size: 160px;
 	font-family: verdana;
-	color: white;
+	color: rgba(129, 237, 245, 0.738);
 	margin-top: -19px;
+}
+
+#logo:hover {
+	animation: bn54rotate 0.7s ease-in-out both;
+  }
+
+#logo:hover #logo-text {
+	animation: bn54storm 0.7s ease-in-out both;
+	animation-delay: 0.06s;
 }
 
 #domain{
@@ -187,9 +196,7 @@ fieldset{
 	width: 380px;
 	height: 297px;
 	box-sizing: border-box;
-	border-width: 3px;
-	border-color: white;
-	border-style: solid;
+	border: 3px solid rgba(72, 192, 247, 0.626);
 	margin-left: 180px;
 	padding: 25px;
 }
@@ -222,25 +229,19 @@ legend{
 	height: 30px;
 	box-sizing: border-box;
 	border: none;
-	border-color: white;
-	border-style: solid;
-	border-width: 2px;
 	margin-top: 10px;
 	background-color: inherit;
-	color: white;
+	color:black;
 	font-size: 16px;
 	margin-bottom: 20px;
 	border-radius: 20px;
 	padding: 10px;
-
+	background: linear-gradient(to left,rgba(233, 255, 250, 0.43), rgba(0, 174, 255, 0.43));
 }
 
 #Username:hover{
 	background: linear-gradient(to left,rgba(233, 255, 250, 0.83), rgba(0, 174, 255, 0.858));
 	border-style: initial;
-	border-width:3px ;
-	width: 100%;
-	height: 32px;
 
 }
 
@@ -254,25 +255,18 @@ legend{
 	height: 35px;
 	box-sizing: border-box;
 	border: none;
-	border-color: white;
-	border-style: solid;
-	border-width: 2px;
+	background: linear-gradient(to left,rgba(233, 255, 250, 0.83), rgba(0, 174, 255, 0.858));
 	margin-top: 8px;
-	background-color: inherit;
-	color: white;
+	color: black;
 	float: right;
 	border-radius: 20px;
-	
+	font-size: 15px;
+	font-weight: bold;
 }
 
 
 #submit-bnt:hover{
-	background: linear-gradient(to left,rgba(233, 255, 250, 0.83), rgba(0, 174, 255, 0.858));
-	border-style: initial;
-	border-width: 3px;
-	width: 100px;
-	height: 37px;
-	font-size: 24px;
+	animation: bn54rotate 0.7s ease-in-out both;
 }
 
 
@@ -296,9 +290,7 @@ legend{
 	width: 400px;
 	height: 415px;
 	box-sizing: border-box;
-	border-width: 3px;
-	border-color: white;
-	border-style: solid;
+	border: 3px solid rgba(72, 192, 247, 0.626);
 	margin-left: 170px;
 	padding: 10px;
 	margin-top: -18px;
@@ -318,23 +310,19 @@ legend{
 	height: 25px;
 	box-sizing: border-box;
 	border: none;
-	border-color: white;
-	border-style: solid;
-	border-width: 1px;
 	margin-top: 6px;
-	background-color: inherit;
 	color: white;
 	font-size: 17px;
 	margin-bottom: 6px;
 	margin-left: 10px;
 	border-radius: 20px;
 	padding: 10px;
+	background: linear-gradient(to left,rgba(233, 255, 250, 0.43), rgba(0, 174, 255, 0.43));
 
 }
 #Name:hover{
 	border-style: initial;
-	background: linear-gradient(to left,rgba(233, 255, 250, 0.83), rgba(0, 174, 255, 0.858));
-	height: 27px;
+	background: linear-gradient(to left,rgb(233, 255, 250), rgba(0, 174, 255, 0.956));
 }
 #Name:focus{
 	outline-style: inherit;
@@ -346,20 +334,15 @@ legend{
 	height: 35px;
 	box-sizing: border-box;
 	border: none;
-	border-color: white;
-	border-style: solid;
-	border-width: 2px;
 	margin-top: 19px;
 	color: black;
 	font-weight: bold;
 	border-radius: 20px;
 	font-size: 15px;
-	
+	background: linear-gradient(to left,rgba(233, 255, 250, 0.83), rgba(0, 174, 255, 0.858));
 }
 #singup:hover{
-	height: 36px;
-	font-size: 17px;
-	background: linear-gradient(to left,rgba(233, 255, 250, 0.83), rgba(0, 174, 255, 0.858));
+	animation: bn54rotate 0.7s ease-in-out both;
 	border-style: initial;
 }
 
